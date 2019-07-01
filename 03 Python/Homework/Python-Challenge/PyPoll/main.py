@@ -1,13 +1,11 @@
-# Objective 1: Import modules os and csv.
+# Import libraries
 import os
 import csv
 
-# Objective 2: Set the path for the CSV file in PyPollcsv
-
+# Set a path
 PyPollcsv = os.path.join("Resources","election_data.csv")
 
-# Objective 3: Create the lists to store data. Initialize
-
+# Declare your variables
 count = 0
 candidatelist = []
 unique_candidate = []
@@ -52,7 +50,7 @@ print("The winner is: " + winner)
 print("-------------------------")
 
 # Print to a text file: PyPoll_Analysis.txt
-# Output perhaps needs to be rounded to 3 decimal points. Leaving that formatting out for now) 
+# Output  
 
 with open('PyPoll_Analysis.txt', 'w') as text:
     text.write("Election Results\n")
