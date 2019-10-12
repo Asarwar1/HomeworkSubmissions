@@ -50,7 +50,7 @@ print("The winner is: " + winner)
 print("-------------------------")
 
 # Print to a text file: PyPoll_Analysis.txt
-# Output  
+# Output perhaps needs to be rounded to 3 decimal points. Leaving that formatting out for now) 
 
 with open('PyPoll_Analysis.txt', 'w') as text:
     text.write("Election Results\n")
